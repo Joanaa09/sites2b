@@ -1,0 +1,55 @@
+body{
+    background-image: url("./img/batata1.jpg");
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+}
+#batata{
+    width: 150px;
+    height: 150px;
+}
+
+#hotdog{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+#cardapio{
+    border: solid 2px;
+    border-color: rgb(255, 251, 0);
+    background-color: rgb(255, 81, 0);
+}
+
+#preco{
+    border: solid 2px;
+    border-color: rgb(255, 251, 0);
+    background-color: rgb(255, 81, 0);
+}
+
+header{
+    background-color: red;
+    border-radius: 10px;
+}
+
+footer{
+    border-radius: 5px;
+    background-color:rgb(184, 226, 84);
+}
+h1{
+    font-family: cursive;
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+}
+p{
+    font-family: arial;
+    font-size: 25px;
+}
+p1{
+    font-family: arial;
+    font-size: 20px;
+}
+h2{
+    font-family: cursive;
+    font-size: 25px;
+}
