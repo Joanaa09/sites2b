@@ -1,5 +1,5 @@
 body{
-    background-image: url("batata.jpg");
+    background-image:URL("batata.jpg");
     background-repeat: no-repeat no-repeat;
     background-size: cover;
 }
