@@ -1,87 +1,122 @@
-/* Estilo geral */
+/* Estilos gerais */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
 }
 
-/* Fundo */
-#fundo {
-    text-align: center;
+/* Container principal */
+#container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 20px;
 }
 
 /* Cabeçalho */
 header {
+    text-align: center;
     background-color: #ff9f00;
     padding: 20px;
-    color: white;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 header h1 {
     margin: 0;
     font-size: 2.5em;
+    color: white;
+    font-weight: bold;
 }
 
-#logo-cachorroquente {
-    width: 150px;
-    margin-top: 10px;
+/* Título do cardápio */
+#cardapio h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Estilo dos itens do cardápio */
+.cardapio-item {
+    display: block;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
 }
 
-/* Seção de foto do Roberdog */
-#foto-roberdog {
-    margin: 30px 0;
+.cardapio-item .item-info {
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+    padding-right: 20px;
 }
 
-#roberdog {
-    max-width: 100%;
+.cardapio-item .item-info h3 {
+    font-size: 1.8em;
+    color: #ff9f00;
+    margin-bottom: 10px;
+}
+
+.cardapio-item .item-info .descricao {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.cardapio-item .item-info .preco {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ff9f00;
+}
+
+/* Estilo das imagens */
+.cardapio-item .item-imagem {
+    display: inline-block;
+    width: 35%;
+    vertical-align: top;
+    text-align: center;
+}
+
+.cardapio-item .item-imagem img {
+    width: 100%;
+    max-width: 200px;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Cardápio */
-#cardapio, #preco {
-    background-color: #ffffff;
-    margin: 20px auto;
-    padding: 20px;
-    width: 80%;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-#cardapio h2, #preco h2 {
-    color: #ff9f00;
-    font-size: 2em;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-ul li {
-    font-size: 1.2em;
-    margin: 10px 0;
 }
 
 /* Rodapé */
 footer {
+    text-align: center;
     margin-top: 40px;
-    font-size: 1.1em;
+    font-size: 1em;
+    color: #333;
     background-color: #333;
     color: white;
-    padding: 20px;
+    padding: 15px;
     border-radius: 10px;
 }
 
 footer p {
-    margin: 10px 0;
+    margin: 0;
 }
 
-footer address {
-    font-style: normal;
+/* Responsividade */
+@media (max-width: 768px) {
+    .cardapio-item .item-info, 
+    .cardapio-item .item-imagem {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .cardapio-item .item-imagem img {
+        max-width: 150px;
+        margin-top: 15px;
+    }
 }
