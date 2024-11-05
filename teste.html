@@ -3,53 +3,76 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roberdog</title>
-    <link rel="stylesheet" href="estilo_teste.css">
+    <title>Cardápio - Roberdog</title>
+<!--     <link rel="stylesheet" href="estilo.css"> -->
     <link rel="icon" href="icone.ico" type="image/x-icon">
 </head>
 <body>
-    <div id="fundo">
-        <!-- Cabeçalho -->
+    <div id="container">
         <header>
-            <h1>Roberdog</h1>
-            <img src="cachorroquente.jpeg" alt="Logo do Roberdog" id="logo-cachorroquente">
+            <h1>Cardápio Roberdog</h1>
         </header>
 
-        <!-- Foto do Roberdog -->
-        <section id="foto-roberdog">
-            <img src="roberdog.jpeg" alt="Foto do Roberdog" id="roberdog">
-            <p><strong>BLÁ BLÁ BLÁ BLÁ BLÁ</strong></p>
-        </section>
-
-        <!-- Cardápio -->
         <section id="cardapio">
-            <h2>Cardápio</h2>
-            <ul>
-                <li>Da Casa</li>
-                <li>Duplo</li>
-                <li>Especial</li>
-                <li>Misto</li>
-                <li>Do Dia</li>
-            </ul>
+            <h2>Nosso Menu</h2>
+            <div class="cardapio-item">
+                <div class="item-info">
+                    <h3>Dog Da Casa</h3>
+                    <p class="descricao">Pão macio, salsicha artesanal e molho especial.</p>
+                    <span class="preco">R$ 15,00</span>
+                </div>
+                <div class="item-imagem">
+                    <img src="dog-da-casa.jpg" alt="Dog Da Casa">
+                </div>
+            </div>
+
+            <div class="cardapio-item">
+                <div class="item-info">
+                    <h3>Dog Duplo</h3>
+                    <p class="descricao">Dois cachorros-quentes com carne suculenta e queijo derretido.</p>
+                    <span class="preco">R$ 22,00</span>
+                </div>
+                <div class="item-imagem">
+                    <img src="dog-duplo.jpg" alt="Dog Duplo">
+                </div>
+            </div>
+
+            <div class="cardapio-item">
+                <div class="item-info">
+                    <h3>Dog Especial</h3>
+                    <p class="descricao">Cachorro-quente gourmet com bacon crocante e molho secreto.</p>
+                    <span class="preco">R$ 28,00</span>
+                </div>
+                <div class="item-imagem">
+                    <img src="dog-especial.jpg" alt="Dog Especial">
+                </div>
+            </div>
+
+            <div class="cardapio-item">
+                <div class="item-info">
+                    <h3>Dog Misto</h3>
+                    <p class="descricao">Pão com salsicha, queijo e molho picante.</p>
+                    <span class="preco">R$ 18,00</span>
+                </div>
+                <div class="item-imagem">
+                    <img src="dog-misto.jpg" alt="Dog Misto">
+                </div>
+            </div>
+
+            <div class="cardapio-item">
+                <div class="item-info">
+                    <h3>Dog do Dia</h3>
+                    <p class="descricao">Variante do dia com ingredientes frescos.</p>
+                    <span class="preco">R$ 20,00</span>
+                </div>
+                <div class="item-imagem">
+                    <img src="dog-do-dia.jpg" alt="Dog do Dia">
+                </div>
+            </div>
         </section>
 
-        <!-- Preços -->
-        <section id="preco">
-            <h2>Preço</h2>
-            <ul>
-                <li>$</li>
-                <li>$$</li>
-                <li>$$</li>
-                <li>$$$</li>
-                <li>$$$</li>
-            </ul>
-        </section>
-
-        <!-- Rodapé -->
         <footer>
-            <p>Roberdog - O melhor de todos</p>
-            <address>Rua Exemplo, 123 - Bairro - Cidade</address>
-            <p>Telefone: (XX) XXXX-XXXX</p>
+            <p>&copy; 2024 Roberdog - Todos os direitos reservados</p>
         </footer>
     </div>
 </body>
