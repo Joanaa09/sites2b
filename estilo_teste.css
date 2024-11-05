@@ -1,0 +1,87 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Fundo */
+#fundo {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #ff9f00;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+#logo-cachorroquente {
+    width: 150px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+/* Seção de foto do Roberdog */
+#foto-roberdog {
+    margin: 30px 0;
+}
+
+#roberdog {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Cardápio */
+#cardapio, #preco {
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#cardapio h2, #preco h2 {
+    color: #ff9f00;
+    font-size: 2em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 40px;
+    font-size: 1.1em;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer address {
+    font-style: normal;
+}
